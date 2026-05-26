@@ -3,20 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "jmagner4"
+  title: "Jocelyn Magner"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-
+      - href: projects.qmd
+        text: Projects
+      - href: travels.qmd
+        text: Travels
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
+    page-layout: full
 
 
 
