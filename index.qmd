@@ -1,7 +1,18 @@
 ---
-title: "jmagner4"
+title: "Jocelyn Magner"
+image: media/profile.JPG
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/jocelyn-magner/
+    - text: GitHub
+      href: https://github.com/jmagner4
+    - text: Email
+      href: mailto:jocelynmmagner@gmail.com
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hello! My name is Jocelyn Magner. I am a third-year transfer student at the University of California, Santa Barbara. I am currently working on my B.S. in Environmental Studies and Geography. This website is my personal portfolio, showcasing my academic and professional achievements, as well as my personal hobbies and travels. Feel free to explore!
