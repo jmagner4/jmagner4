@@ -13,6 +13,8 @@ website:
         text: Projects
       - href: travels.qmd
         text: Travels
+      - href: resume.qmd
+        text: Resume
 format:
   html:
     theme: cosmo
