@@ -1,5 +1,33 @@
 ---
 title: "About Me"
+editor: 
+  markdown: 
+    wrap: sentence
 ---
 
-About me!
+# Research I'm involved in 
+## Landscapes of Change Lab: 
+
+As a researcher in the Landscapes of Change Lab, I analyze resin ducts in Sugar Pine cores from Yosemite and Sequoia National Parks. My work tracks how climate-driven pathogens and insect outbreaks impact tree health to guide restoration efforts in the southern Sierra Nevada.
+
+[add picture] 
+
+## Coastal Change Lab: 
+
+As a researcher Job - I work at the Ojai Farmers market on Sundays for Wild Local Seafood Co. I enjoy representing a sustainable local fisherman’s business and educating customers.
+
+[add picture] 
+
+
+## SEEDS club
+I recently joined the SEEDS club and was lucky to join their trip to the Sierra Nevada Aquatic Research Lab - include picture of SNARL Trip They also recently held a cynotyping event that was a alot of fun! 
+
+[add picture] 
+
+
+## Hobbies:
+In my limited free time, I enjoy cooking, baking, crafting, and doing art. 
+My favorite thing to cook/make is probably spring rolls. 
+[add picture carousel?] 
+
+

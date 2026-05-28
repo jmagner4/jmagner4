@@ -9,9 +9,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site"
+    "text": "About me!"
   },
   {
     "objectID": "index.html#page-content-excluded-for-brevity",
@@ -19,5 +19,33 @@
     "title": "Jocelyn Magner",
     "section": "# page content excluded for brevity ~",
     "text": "# page content excluded for brevity ~\nHello! My name is Jocelyn Magner. I am a third-year transfer student at the University of California, Santa Barbara. I am currently working on my B.S. in Environmental Studies and Geography. This website is my personal portfolio, showcasing my academic and professional achievements, as well as my personal hobbies and travels. Feel free to explore!"
+  },
+  {
+    "objectID": "about.html#landscapes-of-change-lab",
+    "href": "about.html#landscapes-of-change-lab",
+    "title": "About Me",
+    "section": "",
+    "text": "As a researcher in the Landscapes of Change Lab, I analyze resin ducts in Sugar Pine cores from Yosemite and Sequoia National Parks. My work tracks how climate-driven pathogens and insect outbreaks impact tree health to guide restoration efforts in the southern Sierra Nevada.\n[add picture]"
+  },
+  {
+    "objectID": "about.html#coastal-change-lab",
+    "href": "about.html#coastal-change-lab",
+    "title": "About Me",
+    "section": "",
+    "text": "As a researcher Job - I work at the Ojai Farmers market on Sundays for Wild Local Seafood Co. I enjoy representing a sustainable local fisherman’s business and educating customers.\n[add picture]"
+  },
+  {
+    "objectID": "about.html#seeds-club",
+    "href": "about.html#seeds-club",
+    "title": "About Me",
+    "section": "",
+    "text": "I recently joined the SEEDS club and was lucky to join their trip to the Sierra Nevada Aquatic Research Lab - include picture of SNARL Trip They also recently held a cynotyping event that was a alot of fun!\n[add picture]"
+  },
+  {
+    "objectID": "about.html#hobbies",
+    "href": "about.html#hobbies",
+    "title": "About Me",
+    "section": "",
+    "text": "In my limited free time, I enjoy cooking, baking, crafting, and doing art. My favorite thing to cook/make is probably spring rolls. [add picture carousel?]"
   }
 ]
