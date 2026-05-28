@@ -1,21 +1,6 @@
 ---
 title: "About Me!"
 ---
-# Research I'm involved in:
-
-### Landscapes of Change Lab 
-
-As a researcher in the Landscapes of Change Lab, I analyze resin ducts in Sugar Pine cores from Yosemite and Sequoia National Parks. My work tracks how climate-driven pathogens and insect outbreaks impact tree health to guide restoration efforts in the southern Sierra Nevada.
-
-[add picture] 
-
-### Coastal Change Lab 
-
-As a researcher with the Coastal Change Lab I am responsible for analyzing and coding workshop participant transcripts, assisting in developing a code book, and identifying themes and patterns in each phase of the workshop. The goal of this team is to collaboratively learn what critical thinking about local climate change impacts looks like for UCSB students.
-
-
-[add picture] 
-
 
 # Club Involvement:
 ### SEEDS club
