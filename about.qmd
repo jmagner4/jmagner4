@@ -1,21 +1,33 @@
 ---
 title: "About Me!"
+lightbox: 
+  match: auto
+  effect: zoom
+  desc-position: right
+  loop: true
 ---
 
-# Club Involvement:
-### SEEDS club
-I joined the SEEDS club this quarter and was lucky to join their trip to the Sierra Nevada Aquatic Research Lab . They also recently held a cynotyping event that was a a lot of fun! 
+# Club Involvement
 
-[add picture] 
+### SEEDS club
+
+I joined the SEEDS club this quarter and was lucky to join their trip to the Sierra Nevada Aquatic Research Lab . They also recently held a cynotyping event that was a a lot of fun!
+
+::: {layout-ncol=3}
+
+![UCSB SEEDS](media/SNARL1-square.JPG){group="my-gallery" description="Group photo of UCSB's chapter of SEEDS (Strategies for Ecological Education, Diversity, and Sustainability) club at the Sierra Nevada Aquatic Research Labratory."}
+
+![Convict Lake](media/SNARL2-square.JPG){group="my-gallery" description="On our first day of the trip we visited Convit Lake. We collected plant samples for pressing and documented our findings on the inaturalist app. It went from cool and sunny to snowing sideways."}
+
+![Panorama Dome](media/SNARL3-square.JPG){group="my-gallery" description="On the second day of the trip we went on a hike at Panorama Dome led by a naturalist. We learned about the different types of plant growth caused by differing conditions on the North and South side of the mountains."}
+:::
+
 
 # Work
 
 I work at the Ojai Farmers market on Sundays for Wild Local Seafood Co. I enjoy representing a sustainable local fisherman’s business and educating customers.
 
 # Hobbies
-In my limited free time, I enjoy cooking, baking, crafting, and doing art. 
-My favorite thing to cook/make is probably spring rolls. 
 
-[add picture carousel?] 
-
+In my limited free time, I enjoy cooking, baking, crafting, and doing art. My favorite thing to cook/make is probably spring rolls.
 
