@@ -1,6 +1,6 @@
 ---
 title: "Jocelyn Magner"
-image: /media/profile.JPG
+image: media/profile.JPG
 toc: false
 about: 
   template: jolla
