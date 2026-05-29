@@ -1,12 +1,12 @@
 ---
 title: "ENVS 3 Project"
 date: 3-9-2026
-image: zine-digital.JPG
+image: zine-digital.jpg
 format: html
 draft: false
 ---
 # ENVS 3 Final Project Overview
-My final project for ENVS 3: Introduction to the Social and Cultural Environment at UCSB during Winter 2026 was a zine about ways to reduce eco-anxiety. My target audience was fellow UCSB students.
+This project was completed in March 2026 for Environmental Studies 3: Introduction to the Social and Cultural Environment at UCSB. I chose to complete a creative project in the format of a zine which focused on ways to reduce eco-anxiety. My target audience was fellow UCSB students.
 
 [See my write-up for this project](zine-writeup.pdf)
 
