@@ -33,6 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -74,7 +76,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -275,7 +335,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Travels</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resume.pdf"> 
+    <a class="nav-link" href="./resume.html"> 
 <span class="menu-text">Resume</span></a>
   </li>  
 </ul>
@@ -290,11 +350,11 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -304,7 +364,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -319,7 +379,60 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1778742000000" data-listing-file-modified-sort="1780029212346" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<a href="./projectposts/project1/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projectposts/project1/midterm-photo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+ENVS 193DS Midterm
+</h5>
+<div class="card-text listing-description delink">
+This project demonstrates core skills in reproducible environmental data science using RStudio and Quarto. It showcases my ability to manage dynamic documents, critique…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Jocelyn Magner
+</div>
+<div class="listing-date">
+May 14, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1773039600000" data-listing-file-modified-sort="1780029215780" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
+<a href="./projectposts/project1/project2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projectposts/project1/zine-digital.JPG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+ENVS 3 Project
+</h5>
+<div class="card-text listing-description delink">
+My final project for ENVS 3: Introduction to the Social and Cultural Environment at UCSB during Winter 2026 was a zine about ways to reduce eco-anxiety. My target audience…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Jocelyn Magner
+</div>
+<div class="listing-date">
+Mar 9, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

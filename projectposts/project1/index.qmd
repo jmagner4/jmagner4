@@ -1,0 +1,12 @@
+---
+title: "ENVS 193DS Midterm"
+date: 5-14-2026
+image: midterm-photo.png
+format: html
+draft: false
+---
+
+# ENVS 193DS Midterm Project Overview
+This project demonstrates core skills in reproducible environmental data science using RStudio and Quarto. It showcases my ability to manage dynamic documents, critique scientific communication, and visualize data through original and replicated figures with precise captions. Additionally, it highlights my capacity to use deductive reasoning to determine and reproduce analyses, execute statistical tests, and clearly communicate technical results.
+
+[View/Download Complete project](midterm-193DS.pdf)

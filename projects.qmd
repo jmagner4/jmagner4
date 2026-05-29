@@ -1,5 +1,10 @@
 ---
 title: "Projects"
+listing: 
+  contents: projectposts 
+  type: grid 
+  sort: "date desc" 
+  categories: true 
 format: html
 ---
 

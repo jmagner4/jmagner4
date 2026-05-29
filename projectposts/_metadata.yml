@@ -1,0 +1,14 @@
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##        options specified here will apply to all posts in this folder     ----
+##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# re-render posts only when a change to the source file is made ----
+freeze: auto
+
+# enable banner style title blocks ----
+title-block-banner: true
+
+author: 
+  - name: Jocelyn Magner
+    url: jmagner4.github.io
+    orcid: 0000-0002-5300-3075
