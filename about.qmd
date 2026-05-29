@@ -5,6 +5,9 @@ lightbox:
   effect: zoom
   desc-position: right
   loop: true
+format:
+  html:
+    css: styles.css
 ---
 
 # Club Involvement
@@ -29,5 +32,15 @@ I work at the Ojai Farmers market on Sundays for Wild Local Seafood Co. I enjoy 
 
 # Hobbies
 
-In my limited free time, I enjoy cooking, baking, crafting, and doing art. My favorite thing to cook/make is probably spring rolls.
+In my limited free time, I enjoy cooking, baking, crafting, and doing art. My favorite thing to cook/make is probably spring rolls. Click through the images below to scroll through some of my favorite creations.
+
+
+::: {layout-ncol=3}
+
+![Paintings](media/painting81.JPG){group="gallery2" description="Watercolor Birds of Paradise Plant"}
+
+![Crafts](media/craft3.JPG){group="gallery2" description="Crocheted basket"}
+
+![Cooking & Baking](media/food2.JPG){group="gallery2" description="Strawberry Topped Cheesecake"}
+:::
 
