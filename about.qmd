@@ -25,13 +25,6 @@ I joined the SEEDS club this quarter and was lucky to join their trip to the Sie
 ![Panorama Dome](media/SNARL3-square.JPG){group="my-gallery" description="On the second day of the trip we went on a hike at Panorama Dome led by a naturalist. We learned about the different types of plant growth caused by differing conditions on the North and South side of the mountains."}
 :::
 
-
-# Work
-
-I work at the Ojai Farmers market on Sundays for Wild Local Seafood Co. I enjoy representing a sustainable local fisherman’s business and educating customers.
-
-![](media/work.jpg)
-
 # Hobbies
 
 In my limited free time, I enjoy cooking, baking, crafting, and doing art. My favorite thing to cook/make is probably spring rolls. Click through the images below to scroll through some of my favorite creations.
@@ -45,4 +38,6 @@ In my limited free time, I enjoy cooking, baking, crafting, and doing art. My fa
 
 ![Cooking & Baking](media/food2.JPG){group="gallery2" description="Strawberry Topped Cheesecake"}
 :::
+
+
 
