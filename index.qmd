@@ -9,10 +9,12 @@ about:
   links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/jocelyn-magner/
+      target: _blank
     - text: GitHub
       href: https://github.com/jmagner4
+      target: _blank
     - text: Email
-      href: mailto:jocelynmmagner@gmail.com
+      href: mailto:jmagner@ucsb.edu
 ---
 
-Hello! My name is Jocelyn Magner. I am a third-year transfer student at the University of California, Santa Barbara. I am currently working on my B.S. in Environmental Studies and Geography. This website is my personal portfolio, showcasing my academic and professional achievements, as well as my personal hobbies and travels. Feel free to explore!
+Hello! My name is Jocelyn Magner. I am a third-year transfer student at the University of California, Santa Barbara. I am currently working on my B.S. in Environmental Studies and Geography. This website is my personal portfolio, showcasing my academic and professional achievements, as well as my personal hobbies and travels.
