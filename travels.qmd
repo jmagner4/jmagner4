@@ -1,5 +1,54 @@
 ---
-title: "Travels"
-format: html
+title: "Places I have been to!"
+lightbox: 
+  match: auto
+  effect: zoom
+  desc-position: right
+  loop: true
+format:
+  html:
+    css: styles.scss
 ---
+I haven't traveled very much outside of California. I look forward to adding more locations!
+
+Red pins are cities I've lived in, blue pins are places I've visited.
+
+```{r}
+#| echo: false
+library(leaflet)
+
+mapdata <- read.csv("locations.csv")
+mapdata$long <- as.numeric(mapdata$long)
+mapdata$lat <- as.numeric(mapdata$lat)
+
+# Map column values directly to Leaflet's allowed pin colors
+mapdata$marker_color <- ifelse(mapdata$live == 1, "red", "blue")
+
+# Map using addAwesomeMarkers to keep the pin shape
+map <- leaflet(data = mapdata) %>% 
+  addTiles() %>% 
+  addAwesomeMarkers(
+    lng = ~long, 
+    lat = ~lat, 
+    popup = ~city,
+    icon = awesomeIcons(
+      icon = 'ios-close', 
+      iconColor = 'white',
+      library = 'ion',
+      markerColor = ~marker_color
+    )
+  )
+
+map
+
+```
+
+::: {layout-ncol=3}
+
+![South Salmon Creek](media/bodega.JPG){group="my-gallery" description="I used to live about 40 minutes from Bodega Bay and salmon creek was one of my favorite beaches to visit."}
+
+![Sands Beach](media/sands.JPG){group="my-gallery" description="Now I live just a 20 minute walk from Sands beach so it is the beach I visit most often."}
+
+![Morro Bay](media/morro.JPG){group="my-gallery" description="I've only been to Morro Bay once, but it is so gorgeous I had to include."}
+:::
 

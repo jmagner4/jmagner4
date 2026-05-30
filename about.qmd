@@ -7,7 +7,7 @@ lightbox:
   loop: true
 format:
   html:
-    css: styles.css
+    css: styles.scss
 ---
 
 # Club Involvement
@@ -39,5 +39,42 @@ In my free time, I enjoy cooking, baking, crafting, and painting.
 ![Cooking & Baking](media/food2.JPG){group="gallery2" description="Strawberry Topped Cheesecake"}
 :::
 
+# Movie and Music Recommendations
 
+Some of my favorite music artists, shows, and movies that I would recommend!
 
+## My Top Music Artists (This Year)
+
+::: {layout="[1, 1]"}
+- Twenty One Pilots
+- Pinegrove
+- Kevin Abstract
+- Klangstof
+- Ryan Beatty
+- The 1975
+- Frank Ocean
+- Dodie
+- Roy Blair
+- Joji
+
+![](media/music-300.jpg)
+:::
+
+## My Top Shows and Movies
+
+::: {layout="[1, 1]"}
+- Inside Out
+- Nightmare Before Christmas
+- Knives Out (all three)
+- Game Night
+- 24
+- Bob's Burgers
+- American Horror Story
+- Black Mirror
+- Severance
+- Shrinking
+
+![](media/movies-300.jpg)
+:::
+
+**Best Rewatches:** Seinfeld, How I Met Your Mother, House, Community, Its Always Sunny in Philadelphia

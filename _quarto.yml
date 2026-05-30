@@ -19,11 +19,8 @@ website:
 format:
   html:
     theme: 
-      light: flatly
-      dark: solar
-    css: styles.css
+      - flatly
+      - styles.scss
+    mainfont: IBM Plex Sans
     toc: true
     page-layout: full
-
-
-
