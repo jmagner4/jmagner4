@@ -1,0 +1,50 @@
+/*-- scss:defaults --*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+$snpro: "SN Pro", sans-serif;
+$cantataone: "Cantata One", serif;
+$ibmplexsans: "IBM Plex Sans", sans-serif;
+
+
+$dark-green: #858E79;
+$light-green: #D1D9CE;
+$cream: #FDFBF7;
+$gray: #64605f;
+$purple: #9158A2;
+$medpurple: #522081;
+$darkpurple: #360f5a;
+$orange: #ad7237;
+$maroon:#4A0A14;
+$black: #000000;
+
+$navbar-bg: $purple;
+
+/*-- scss:rules --*/
+
+h1, h2 {
+  letter-spacing: 1px;
+  font-weight: 800;
+  color:$darkpurple;}
+
+h3 {color:$medpurple;}
+
+figcaption {color:$purple;}
+  
+.title {color:$black;}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+
